@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>jeecg-system-local-api</module>
+        <module>stepn-system-local-api</module>
     </modules>
 
     <dependencies>

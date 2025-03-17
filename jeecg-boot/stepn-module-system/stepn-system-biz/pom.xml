@@ -13,7 +13,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.jeecgframework.boot</groupId>
-			<artifactId>jeecg-system-local-api</artifactId>
+			<artifactId>stepn-system-local-api</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
