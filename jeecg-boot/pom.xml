@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jeecgframework.boot</groupId>
-  <artifactId>jeecg-boot-parent</artifactId>
+  <artifactId>stepn-boot-parent</artifactId>
   <version>3.7.3</version>
   <packaging>pom</packaging>
   <name>JEECG BOOT ${project.version}</name>
@@ -82,8 +82,8 @@
 	</properties>
 
 	<modules>
-        <module>jeecg-boot-base-core</module>
-        <module>jeecg-module-system</module>
+        <module>stepn-boot-base-core</module>
+        <module>stepn-module-system</module>
 		<module>stepn-module-business</module>
 	</modules>
 
@@ -180,7 +180,7 @@
 			<!-- system 模块-->
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
-				<artifactId>jeecg-system-biz</artifactId>
+				<artifactId>stepn-system-biz</artifactId>
 				<version>${jeecgboot.version}</version>
 			</dependency>
 
@@ -193,7 +193,7 @@
 			<!-- jeecg core -->
 			<dependency>
 				<groupId>org.jeecgframework.boot</groupId>
-				<artifactId>jeecg-boot-base-core</artifactId>
+				<artifactId>stepn-boot-base-core</artifactId>
 				<version>${jeecgboot.version}</version>
 			</dependency>
 			<!-- system 单体 api -->

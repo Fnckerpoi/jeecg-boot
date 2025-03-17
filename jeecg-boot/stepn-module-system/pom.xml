@@ -3,19 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>jeecg-boot-parent</artifactId>
+        <artifactId>stepn-boot-parent</artifactId>
         <groupId>org.jeecgframework.boot</groupId>
         <version>3.7.3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jeecg-module-system</artifactId>
+    <artifactId>stepn-module-system</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>jeecg-system-api</module>
-        <module>jeecg-system-biz</module>
-        <module>jeecg-system-start</module>
+        <module>stepn-system-api</module>
+        <module>stepn-system-biz</module>
+        <module>stepn-system-start</module>
     </modules>
 
 </project>

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.jeecgframework.boot</groupId>
-        <artifactId>jeecg-boot-parent</artifactId>
+        <artifactId>stepn-boot-parent</artifactId>
         <version>3.7.3</version>
     </parent>
 
@@ -31,25 +31,6 @@
             <artifactId>hibernate-re</artifactId>
         </dependency>
 
-        <!-- 企业微信/钉钉 api -->
-        <dependency>
-            <groupId>org.jeecgframework</groupId>
-            <artifactId>weixin4j</artifactId>
-        </dependency>
-        <!-- 积木报表 -->
-        <dependency>
-            <groupId>org.jeecgframework.jimureport</groupId>
-            <artifactId>jimureport-spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.jeecgframework.jimureport</groupId>
-            <artifactId>jimureport-nosql-starter</artifactId>
-        </dependency>
-        <!-- 积木BI -->
-        <dependency>
-            <groupId>org.jeecgframework.jimureport</groupId>
-            <artifactId>jimubi-spring-boot-starter</artifactId>
-        </dependency>
     </dependencies>
 
 </project>
