@@ -19,18 +19,15 @@
             <version>${jeecgboot.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.jeecgframework.boot</groupId>
-            <artifactId>stepn-system-biz</artifactId>
-            <version>${jeecgboot.version}</version>
-        </dependency>
-
+        <!-- business 业务模块 -->
         <dependency>
             <groupId>org.jeecgframework.boot</groupId>
             <artifactId>stepn-system-business</artifactId>
             <version>${jeecgboot.version}</version>
         </dependency>
-        
+
+
+
         <!-- flyway 数据库自动升级 -->
         <dependency>
             <groupId>org.flywaydb</groupId>

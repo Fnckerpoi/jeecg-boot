@@ -16,7 +16,6 @@
         <module>stepn-system-api</module>
         <module>stepn-system-biz</module>
         <module>stepn-system-start</module>
-        <module>stepn-module-business</module>
 
     </modules>
 

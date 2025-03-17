@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>org.jeecgframework.boot</groupId>
-            <artifactId>jeecg-boot-base-core</artifactId>
+            <artifactId>stepn-boot-base-core</artifactId>
         </dependency>
     </dependencies>
 
